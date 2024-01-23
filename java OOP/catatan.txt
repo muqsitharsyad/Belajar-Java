@@ -1,0 +1,50 @@
+this() -> untuk mengakses object ataupun method yang ada di class nya sendiri
+extends -> untuk menurunkan dari class parents ke class child
+super() -> untuk mengakses object ataupun method yang ada di parent nya //super keyword && super constructor
+jika menggunakan constructor di parent maka child harus memanggil juga
+constructor bisa lebih dari, asal parameter nya yg berbeda
+
+*polymorphism -> berubah bentuk menjadi bentuk yang lain,  biasa di gunakan di inheritance
+*type check & casts -> konversi tipe data (instanceof -> untuk mengecek tipe data)
+*access modifier -> public, protected, default, private
+*import -> untuk mengakses class dari package lain yg bersifat public, jika ingin import semua class dlm package bisa menggunakan (.*)
+
+abstract class - extends , 
+interface - implements -> berisi method yg mana jika interface di panggil di class maka harus memanggil semua/override method nya
+
+Encapsulation
+-Getter & setter -> agar tidak bisa sembarang mengakses object
+*utk membuat otomatis bisa membuat dahulu variable lalu ke menu code-generate-getter and setter (Alt+insert)
+
+Equals
+untuk membandingkan isi data non primitif menggunakan .equals()
+(==) digunakan untuk membandingkan object nya
+-method equal,toString & hashCode bisa di override otomatis di setiap class dengan menggunakan generate di IDE
+
+Final
+jika variable, class & method maka itu sudah konstant/tidak bisa di rubah lagi atau diturunkan lagi class nya
+
+Inner Class
+bisa mengakses variabel langsung dari outer/inner class nya, dengan super class
+
+Anonymous Class
+penggunaan nya untuk membuat class sederhana, dan hanya sekali pakai
+
+Static -> untuk/bisa membuat field, block, method atau class bisa di akses langsung tanpa melalui objectnya
+
+Enum class -> class yg berisikan nilai terbatas yg sudah ditentukan spt gender:male female, tipe customer: VIP Premium
+-bisa menambah members (field, method, constructor)
+
+Exeption -> error
+untuk menggunakannya harus memakai try catch
+jenis: checked exeption -> wajib trycatch, runtime exeption -> tidak wajib trycatch tp ada baiknya dilakukan, error -> tdk di rekomen trycatch == untuk aplikasi lgsg berenti ketika terjadi error
+
+Stacktraceelement class -> menelusuri lokasi error .printStackTrace()
+
+Try with resource
+
+Anotation -> menambah metadata ke kode program yg dibuat --> kata kunci @interface
+
+Reflection -> kemampuan melihat struktur aplikasi pada saat berjalan
+
+3:56:49

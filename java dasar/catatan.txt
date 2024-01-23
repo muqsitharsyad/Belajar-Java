@@ -1,0 +1,19 @@
+psvm -> shortcut untuk membuat main di setiap class
+ctrl + spasi -> jika shortcut tidak muncul
+sout -> shortcut untuk println
+ctrl + d -> copy 1 line
+
+.:kompilasi kode java manual:.
+- masuk src project di cmd
+-- javac namafile.java
+- enter
+- terbuat menjadi .class hasil kompilasi
+- lalu jalankan
+-- java namafile
+
+.:kompilasi kode java intellij:.
+- klik kanan pada file yg mau di run
+- pilih run namaclass
+- atau klik tombol segitiga di samping nama function
+
+2:51 foreach
