@@ -1,0 +1,50 @@
+Manipulasi String :
+StringBuffer -> thread safe
+StringBuilder -> not thread safe
+
+StringJoiner class -> digunakan untuk membuat string sequence yg dipisahkan dengan delimiter
+
+StringTokenizer class -> digunakan memotong string menjadi token / string lebih kecil
+perbedaan dengan split yaitu bersifat lazy(memotong per token/perbagian), kalo split langsung semua jadi memakan banyak memori
+
+Number class
+
+konversi string ke number:
+parseXxx(string) -> ke number primitif
+valueOf(string) -> ke number non primitif
+
+Math class
+
+BigNumber : utk angka besar melebihi kapasitas long & double
+BigInteger -> Integer
+BigDecimal -> Floating point
+
+Scanner class : untuk input output
+
+Date class:
+Date -> representasi tanggal
+Calendar -> manipulasi tanggal
+
+System class: berisi utility static method di java
+
+Runtime class : informasi environment tempat aplikasi java berjalan
+
+UUID class : Universally Unique Identifier -> membuat data unique
+
+Base64 class
+
+Objects class -> berisi static method bisa digunkan untuk operasi object atau pengecekan sblm operasi dimulai
+
+Random class -> generate random number
+
+Properties file -> java menyimpan konfigurasi file dalam bentuk properties file, berisi key value yg dipisahkan dengan (=)
+Properties class -> mengambil informasi dari properties file
+
+Arrays class -> berisi static method utk memanipulasi data array
+
+Regular Expression (Regex) -> cara melakukan pola pencarian, biasa dalam bentuk string
+-Pattern = hasil kompilasi dari pola regex yg dibuat
+-Matcher = engine untk melakukan pencarian dari pattern
+
+
+1:09:55
