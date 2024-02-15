@@ -1,0 +1,20 @@
+Generic -> menambah parameter type saat membuat class atau method
+Generic class -> class atau interface yg memiliki parameter type
+Generic object
+Generic method ->
+
+- parameter type di generic class boleh lebih dari satu, namun type harus berbeda
+
+- defaultnya bersifat invariant -> tidak boleh substitusi dengan subtype(child) dan supertype(parent)
+- covariant (child ke parent) -> bisa substitusi menggunakan kata kunci (? extends parent class) -> hanya read only
+- contravariant (patent ke child) -> bisa substitusi menggunakan kata kunci (? super sub class) -> bisa write & read
+
+- Bounded type parameter /constraint -> menyebutkan tipe yg diperbolehkan, default nya object sehingga semua tipe bisa
+- multiple bounded type -> bisa lebih dari satu dengan karakter pemisah & dan harus interface
+
+- wildcard -> jika hanya ingin getdata bisa menggunakan ini, dengan mengganti generic parmeter type dengan "?"
+
+- type erasure -> proses pengecekan generic pada compile time
+
+-comparable interface
+-comparator interface
